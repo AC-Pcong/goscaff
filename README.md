@@ -1,0 +1,2 @@
+# goscaff
+go web start
