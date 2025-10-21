@@ -1,0 +1,7 @@
+server:
+  port: "8080"
+database:
+  driver: sqlite3
+  dsn: "file::memory:?cache=shared"
+log:
+  level: info

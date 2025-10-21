@@ -20,7 +20,8 @@ type ServerConfig struct {
 }
 
 type DatabaseConfig struct {
-	DSN string `mapstructure:"dsn"`
+	Driver string `mapstructure:"driver"`
+	DSN    string `mapstructure:"dsn"`
 }
 
 type LogConfig struct {

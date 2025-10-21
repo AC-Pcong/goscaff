@@ -2,11 +2,11 @@
 
 all: fmt lint wire build test
 
-build:
+build: wire
 	go build -o bin/goscaff ./cmd/goscaff
 
-run:
-	go run cmd/goscaff/main.go
+run: build
+	./bin/goscaff -c configs/config.dev.yaml
 
 test:
 	go test ./...
