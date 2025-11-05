@@ -1,14 +1,15 @@
 module github.com/AC-Pcong/goscaff
 
-go 1.24.0
+go 1.25.3
 
 require (
 	github.com/gin-gonic/gin v1.11.0
+	github.com/go-playground/assert/v2 v2.2.0
 	github.com/google/wire v0.7.0
 	github.com/spf13/viper v1.21.0
 	gorm.io/driver/mysql v1.6.0
 	gorm.io/driver/sqlite v1.6.0
-	gorm.io/gorm v1.31.0
+	gorm.io/gorm v1.31.1
 )
 
 require (
